@@ -19,6 +19,7 @@ print(pd.read_csv("../datasets/movies.csv"))
 # 781   782                      Valkyrie              MGM    $200.30   2008
 #
 # [782 rows x 5 columns]
+
 print(pd.read_csv("../datasets/movies.csv", index_col="Title"))
 #                               Rank           Studio       Gross  Year
 # Title

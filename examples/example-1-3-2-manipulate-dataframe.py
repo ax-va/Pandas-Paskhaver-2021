@@ -11,6 +11,7 @@ print(movies.head(4))
 # Avatar                           2          Fox  $2,789.70   2009
 # Titanic                          3    Paramount  $2,187.50   1997
 # Star Wars: The Force Awakens     4  Buena Vista  $2,068.20   2015
+
 print(movies.tail(6))
 #                           Rank           Studio     Gross  Year
 # Title
@@ -20,6 +21,7 @@ print(movies.tail(6))
 # Cats & Dogs                780  Warner Brothers  $200.70   2001
 # The Hunt for Red October   781        Paramount  $200.50   1990
 # Valkyrie                   782              MGM  $200.30   2008
+
 print(len(movies))  # 782
 print(movies.shape)  # (782, 4)
 print(movies.size)  # 3128
@@ -29,22 +31,26 @@ print(movies.dtypes)
 # Gross     object
 # Year       int64
 # dtype: object
+
 print(movies.iloc[499])
 # Rank           500
 # Studio         Fox
 # Gross     $288.30
 # Year          2018
 # Name: Maze Runner: The Death Cure, dtype: object
+
 print(movies.loc["Forrest Gump"])
 # Rank            119
 # Studio    Paramount
 # Gross      $677.90
 # Year           1994
 # Name: Forrest Gump, dtype: object
+
 print(movies.loc["101 Dalmatians"])
 # Title
 # 101 Dalmatians   425  Buena Vista  $320.70   1996
 # 101 Dalmatians   708  Buena Vista  $215.90   1961
+
 print(movies.sort_values(by="Year", ascending=False).head())
 #                                             Rank  ...  Year
 # Title                                             ...
@@ -55,6 +61,7 @@ print(movies.sort_values(by="Year", ascending=False).head())
 # How to Train Your Dragon: The Hidden World   199  ...  2019
 #
 # [5 rows x 4 columns]
+
 print(movies.sort_values(by=["Studio", "Year"]).head())
 #                          Rank       Studio     Gross  Year
 # Title
@@ -63,6 +70,7 @@ print(movies.sort_values(by=["Studio", "Year"]).head())
 # The Jungle Book           755  Buena Vista  $205.80   1967
 # Who Framed Roger Rabbit   410  Buena Vista  $329.80   1988
 # Dead Poets Society        636  Buena Vista  $235.90   1989
+
 print(movies.sort_index().head())
 #                   Rank           Studio     Gross  Year
 # Title

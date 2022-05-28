@@ -18,6 +18,7 @@ print(movies["Gross"].str.replace("$", "", regex=False).str.replace(",", "", reg
 # The Hunt for Red October         200.50
 # Valkyrie                         200.30
 # Name: Gross, Length: 782, dtype: object
+
 print(movies["Gross"].str.replace("$", "", regex=False).str.replace(",", "", regex=False).astype(float))
 # Title
 # Avengers: Endgame               2796.3
@@ -32,6 +33,7 @@ print(movies["Gross"].str.replace("$", "", regex=False).str.replace(",", "", reg
 # The Hunt for Red October         200.5
 # Valkyrie                         200.3
 # Name: Gross, Length: 782, dtype: float64
+
 movies["Gross"] = movies["Gross"].str.replace("$", "", regex=False).str.replace(",", "", regex=False).astype(float)
 print(movies["Gross"].mean())  # 439.0308184143222
 
@@ -44,6 +46,7 @@ print(studios["Gross"].count().head())
 # China Film Corporation      1
 # Columbia                    5
 # Name: Gross, dtype: int64
+
 print(studios["Gross"].count().sort_values(ascending=False).head())
 # Studio
 # Warner Brothers    132
@@ -52,6 +55,7 @@ print(studios["Gross"].count().sort_values(ascending=False).head())
 # Universal          109
 # Sony                86
 # Name: Gross, dtype: int64
+
 print(studios["Gross"].sum().head())
 # Studio
 # Artisan                     248.6
@@ -60,6 +64,7 @@ print(studios["Gross"].sum().head())
 # China Film Corporation      699.8
 # Columbia                   1276.6
 # Name: Gross, dtype: float64
+
 print(studios["Gross"].sum().sort_values(ascending=False).head())
 # Studio
 # Buena Vista        73585.0

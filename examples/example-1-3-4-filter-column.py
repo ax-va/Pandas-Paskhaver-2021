@@ -20,6 +20,7 @@ print(movies[movies["Studio"] == "Universal"])
 # Straight Outta Compton           776  Universal    $201.60   2015
 #
 # [109 rows x 4 columns]
+
 released_by_universal = (movies["Studio"] == "Universal")
 print(movies[released_by_universal].head())
 #                                 Rank     Studio       Gross  Year
@@ -29,6 +30,7 @@ print(movies[released_by_universal].head())
 # Jurassic World: Fallen Kingdom    13  Universal  $1,309.50   2018
 # The Fate of the Furious           17  Universal  $1,236.00   2017
 # Minions                           19  Universal  $1,159.40   2015
+
 released_by_universal = movies["Studio"] == "Universal"
 released_in_2015 = movies["Year"] == 2015
 print(movies[released_by_universal & released_in_2015])
@@ -42,6 +44,7 @@ print(movies[released_by_universal & released_in_2015])
 # Ted 2                    702  Universal    $216.70   2015
 # Everest                  766  Universal    $203.40   2015
 # Straight Outta Compton   776  Universal    $201.60   2015
+
 print(movies[released_by_universal | released_in_2015])
 #                                 Rank       Studio       Gross  Year
 # Title
@@ -58,6 +61,7 @@ print(movies[released_by_universal | released_in_2015])
 # Straight Outta Compton           776    Universal    $201.60   2015
 #
 # [140 rows x 4 columns]
+
 before_1975 = movies["Year"] < 1975
 print(movies[before_1975])
 #                     Rank           Studio     Gross  Year
@@ -68,6 +72,7 @@ print(movies[before_1975])
 # The Godfather        604        Paramount  $245.10   1972
 # 101 Dalmatians       708      Buena Vista  $215.90   1961
 # The Jungle Book      755      Buena Vista  $205.80   1967
+
 mid_80s = movies["Year"].between(1983, 1986)
 print(movies[mid_80s])
 #                                       Rank     Studio     Gross  Year
@@ -82,6 +87,7 @@ print(movies[mid_80s])
 # Rambo: First Blood Part II             469    TriStar  $300.40   1985
 # Ghostbusters                           485   Columbia  $295.20   1984
 # Out of Africa                          662  Universal  $227.50   1985
+
 has_dark_in_title = movies.index.str.lower().str.contains("dark")
 print(movies[has_dark_in_title])
 #                                 Rank           Studio       Gross  Year

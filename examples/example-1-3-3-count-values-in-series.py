@@ -19,6 +19,7 @@ print(movies["Studio"])
 # The Hunt for Red October              Paramount
 # Valkyrie                                    MGM
 # Name: Studio, Length: 782, dtype: object
+
 print(movies["Studio"].value_counts().head(10))
 # Warner Brothers    132
 # Buena Vista        125
