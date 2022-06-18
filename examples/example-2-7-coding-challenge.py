@@ -71,3 +71,21 @@ print(heroes * 2)
 
 print(dict(heroes))
 # {'Batman': 100, 'Superman': 120, 'Spider-Man': 90, 'Iron Man': 95, 'Captain America': 110, 'Wonder Woman': 120}
+
+
+class A:
+    pass
+
+
+class B:
+    pass
+
+
+print(pd.Series([A(), A()]))
+# 0    <__main__.A object at 0x00000293F6E39BB0>
+# 1    <__main__.A object at 0x00000293F6E394F0>
+# dtype: object
+
+print(pd.Series([A(), A()]) + pd.Series([B(), B()]))
+# TypeError: unsupported operand type(s) for +: 'A' and 'B'
+
