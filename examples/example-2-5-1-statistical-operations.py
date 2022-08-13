@@ -54,8 +54,8 @@ print(numbers.cumsum(skipna=False))
 # dtype: float64
 
 # percent change:
-# the current index's value minus the last index's value
-# and then divide the sum by the last index's value
+# the current index's value minus the previous index's value
+# and then divide the difference by the previous index's value
 print(numbers.pct_change())
 # 0         NaN
 # 1    1.000000
@@ -70,6 +70,14 @@ print(numbers.pct_change())
 numbers.pct_change()
 numbers.pct_change(fill_method="pad")
 numbers.pct_change(fill_method="ffill")
+print(numbers.pct_change(fill_method="ffill"))
+# 0         NaN
+# 1    1.000000
+# 2    0.500000
+# 3    0.000000
+# 4    0.333333
+# 5    0.250000
+# dtype: float64
 
 # backfill: pandas replaces a nan value with the next valid observation
 # The two lines below are equivalent
