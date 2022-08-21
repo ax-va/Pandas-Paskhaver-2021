@@ -4,4 +4,7 @@ Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver publ
 
 https://github.com/paskhaver/pandas-in-action
 
+Pandas' Series: 
+https://pandas.pydata.org/docs/reference/api/pandas.Series.html
+
 NumPy 1.22.4 and Pandas 1.4.2 are used.
