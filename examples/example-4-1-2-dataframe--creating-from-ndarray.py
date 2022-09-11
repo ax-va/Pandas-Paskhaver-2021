@@ -1,5 +1,8 @@
 """
-Creating a DataFrame from a NumPy ndarray
+-- Core pandas
+---- The DataFrame object
+------ Overview of a DataFrame
+-------- Creating a DataFrame from a NumPy ndarray
 """
 
 import numpy as np

@@ -1,5 +1,8 @@
 """
-Creating a DataFrame from a dictionary
+-- Core pandas
+---- The DataFrame object
+------ Overview of a DataFrame
+-------- Creating a DataFrame from a dictionary
 """
 
 import pandas as pd

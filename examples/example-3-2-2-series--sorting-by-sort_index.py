@@ -1,5 +1,8 @@
 """
-Sort a Series by its index
+-- Core pandas
+---- Series methods
+------ Sorting a Series
+-------- Sorting by index with the sort_index method
 """
 
 import pandas as pd

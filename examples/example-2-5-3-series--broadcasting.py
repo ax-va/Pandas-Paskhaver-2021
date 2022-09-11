@@ -1,5 +1,8 @@
 """
-Broadcasting
+-- Core pandas
+---- The Series object
+------ Mathematical operations
+-------- Broadcasting
 """
 import numpy as np
 import pandas as pd

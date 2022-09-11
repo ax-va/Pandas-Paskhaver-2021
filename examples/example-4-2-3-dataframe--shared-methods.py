@@ -1,5 +1,8 @@
 """
-Shared methods of Series and DataFrames
+-- Core pandas
+---- The DataFrame object
+------ Similarities between Series and DataFrames
+-------- Shared methods of Series and DataFrames
 """
 
 import numpy as np

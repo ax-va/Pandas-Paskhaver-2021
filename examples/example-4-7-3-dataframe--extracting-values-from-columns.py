@@ -1,5 +1,8 @@
 """
-Extracting values from specific columns
+-- Core pandas
+---- The DataFrame object
+------ Selecting rows from a DataFrame
+-------- Extracting values from specific columns
 """
 import pandas as pd
 

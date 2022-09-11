@@ -1,5 +1,8 @@
 """
-Manipulate a DataFrame
+-- Core pandas
+---- Introducing pandas
+------ A tour of pandas
+-------- Manipulate a DataFrame
 """
 import pandas as pd
 

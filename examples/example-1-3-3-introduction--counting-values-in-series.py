@@ -1,5 +1,8 @@
 """
-Count values in a Series
+-- Core pandas
+---- Introducing pandas
+------ A tour of pandas
+-------- Count values in a Series
 """
 
 import pandas as pd

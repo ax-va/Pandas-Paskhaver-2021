@@ -1,5 +1,7 @@
 """
-Create Series from Python objects
+-- Core pandas
+---- The Series object
+------ Create Series from Python objects
 """
 import numpy as np
 import pandas as pd

@@ -1,6 +1,8 @@
 """
-Retrieve the smallest and largest values with the nsmallest
-and nlargest methods
+-- Core pandas
+---- Series methods
+------ Sorting a Series
+-------- Retrieve the smallest and largest values with the nsmallest and nlargest methods
 """
 
 import pandas as pd

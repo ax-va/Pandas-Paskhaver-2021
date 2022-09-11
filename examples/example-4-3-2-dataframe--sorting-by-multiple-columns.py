@@ -1,5 +1,8 @@
 """
-Sorting by multiple columns
+-- Core pandas
+---- The DataFrame object
+------ Sorting a DataFrame
+-------- Sorting by multiple columns
 """
 
 import pandas as pd

@@ -1,5 +1,8 @@
 """
-Selecting multiple columns from a DataFrame
+-- Core pandas
+---- The DataFrame object
+------ Selecting columns and rows from a DataFrame
+-------- Selecting multiple columns from a DataFrame
 """
 import pandas as pd
 

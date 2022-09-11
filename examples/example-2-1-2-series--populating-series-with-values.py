@@ -1,5 +1,8 @@
 """
-Populate Series with values
+-- Core pandas
+---- The Series object
+------ Overview of a Series
+-------- Populate Series with values
 """
 import pandas as pd
 

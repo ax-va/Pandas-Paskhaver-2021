@@ -1,5 +1,7 @@
 """
-Coding challenge
+-- Core pandas
+---- Series methods
+------ Coding challenge
 """
 
 import pandas as pd

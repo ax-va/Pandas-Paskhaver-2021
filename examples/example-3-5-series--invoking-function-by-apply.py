@@ -1,5 +1,7 @@
 """
-Invoke a function on every Series value with the apply method
+-- Core pandas
+---- Series methods
+------ Invoke a function on every Series value with the apply method
 """
 
 import pandas as pd

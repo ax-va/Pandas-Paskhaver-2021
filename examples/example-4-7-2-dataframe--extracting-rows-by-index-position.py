@@ -1,5 +1,8 @@
 """
-Extracting rows by index position
+-- Core pandas
+---- The DataFrame object
+------ Selecting rows from a DataFrame
+-------- Extracting rows by index position
 """
 import pandas as pd
 

@@ -1,5 +1,8 @@
 """
-Sorting by a single column
+-- Core pandas
+---- The DataFrame object
+------ Sorting a DataFrame
+-------- Sorting by a single column
 """
 import pandas as pd
 

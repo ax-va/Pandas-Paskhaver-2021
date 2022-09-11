@@ -1,5 +1,7 @@
 """
-Coding challenge
+-- Core pandas
+---- The DataFrame object
+------ Coding challenge
 """
 import pandas as pd
 

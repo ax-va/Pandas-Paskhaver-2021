@@ -1,5 +1,8 @@
 """
-Filter a column by one or more criteria
+-- Core pandas
+---- Introducing pandas
+------ A tour of pandas
+-------- Filter a column by one or more criteria
 """
 import pandas as pd
 

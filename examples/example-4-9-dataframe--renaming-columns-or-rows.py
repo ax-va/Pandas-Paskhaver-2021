@@ -1,5 +1,7 @@
 """
-Renaming columns or rows
+-- Core pandas
+---- The DataFrame object
+------ Renaming columns or rows
 """
 import pandas as pd
 

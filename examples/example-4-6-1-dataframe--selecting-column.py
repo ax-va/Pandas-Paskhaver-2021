@@ -1,5 +1,8 @@
 """
-Selecting a single column from a DataFrame
+-- Core pandas
+---- The DataFrame object
+------ Selecting columns and rows from a DataFrame
+-------- Selecting a single column from a DataFrame
 """
 import pandas as pd
 

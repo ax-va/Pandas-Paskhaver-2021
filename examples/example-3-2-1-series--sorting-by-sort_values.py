@@ -1,5 +1,8 @@
 """
-Sort a Series by its values
+-- Core pandas
+---- Series methods
+------ Sorting a Series
+-------- Sorting by values with the sort_values method
 """
 
 import pandas as pd
