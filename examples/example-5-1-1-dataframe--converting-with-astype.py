@@ -160,5 +160,3 @@ employees.info()
 #  5   Team        957 non-null    category
 # dtypes: bool(1), category(2), datetime64[ns](1), int32(1), object(1)
 # memory usage: 23.1+ KB
-
-
