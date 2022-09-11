@@ -4,7 +4,6 @@
 ------ A tour of pandas
 -------- Import a data set
 """
-
 import pandas as pd
 
 print(pd.read_csv("../datasets/movies.csv"))

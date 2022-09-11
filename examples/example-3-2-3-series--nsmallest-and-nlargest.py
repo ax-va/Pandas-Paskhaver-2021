@@ -4,7 +4,6 @@
 ------ Sorting a Series
 -------- Retrieve the smallest and largest values with the nsmallest and nlargest methods
 """
-
 import pandas as pd
 
 google = pd.read_csv("../datasets/google_stocks.csv", parse_dates=["Date"], index_col="Date").squeeze("columns")

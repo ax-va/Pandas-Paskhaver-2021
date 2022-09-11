@@ -4,7 +4,6 @@
 ------ Sorting a Series
 -------- Sorting by index with the sort_index method
 """
-
 import pandas as pd
 
 pokemon = pd.read_csv("../datasets/pokemon.csv", index_col="Pokemon").squeeze("columns")

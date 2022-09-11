@@ -3,7 +3,6 @@
 ---- Series methods
 ------ Invoke a function on every Series value with the apply method
 """
-
 import pandas as pd
 
 google = pd.read_csv("../datasets/google_stocks.csv", parse_dates=["Date"], index_col="Date").squeeze("columns")

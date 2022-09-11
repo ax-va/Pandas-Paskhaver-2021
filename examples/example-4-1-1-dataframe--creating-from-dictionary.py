@@ -4,7 +4,6 @@
 ------ Overview of a DataFrame
 -------- Creating a DataFrame from a dictionary
 """
-
 import pandas as pd
 
 city_data = {

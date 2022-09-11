@@ -4,7 +4,6 @@
 ------ Overview of a DataFrame
 -------- Creating a DataFrame from a NumPy ndarray
 """
-
 import numpy as np
 import pandas as pd
 

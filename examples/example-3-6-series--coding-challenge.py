@@ -3,13 +3,11 @@
 ---- Series methods
 ------ Coding challenge
 """
-
+import datetime as dt
 import pandas as pd
 
-import datetime as dt
 day = dt.datetime(2020, 12, 26)
 print(day.strftime("%A"))  # Saturday
-
 
 battles_dataframe = pd.read_csv("../datasets/revolutionary_war.csv").head()
 print(battles_dataframe)

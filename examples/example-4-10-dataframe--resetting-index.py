@@ -3,7 +3,6 @@
 ---- The DataFrame object
 ------ Resetting an index
 """
-
 import pandas as pd
 
 nba = pd.read_csv("../datasets/nba.csv", parse_dates=["Birthday"], index_col="Name")

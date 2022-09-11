@@ -4,7 +4,6 @@
 ------ A tour of pandas
 -------- Count values in a Series
 """
-
 import pandas as pd
 
 movies = pd.read_csv("../datasets/movies.csv", index_col="Title")

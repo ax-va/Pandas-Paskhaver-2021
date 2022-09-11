@@ -4,7 +4,6 @@
 ------ Sorting a Series
 -------- Sorting by values with the sort_values method
 """
-
 import pandas as pd
 
 google = pd.read_csv("../datasets/google_stocks.csv", parse_dates=["Date"], index_col="Date").squeeze("columns")

@@ -4,7 +4,6 @@
 ------ Similarities between Series and DataFrames
 -------- Importing a DataFrame with the read_csv function
 """
-
 import pandas as pd
 
 print(pd.read_csv("../datasets/nba.csv"))

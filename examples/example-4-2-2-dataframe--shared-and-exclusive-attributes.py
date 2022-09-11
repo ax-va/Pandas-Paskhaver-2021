@@ -4,7 +4,6 @@
 ------ Similarities between Series and DataFrames
 -------- Shared and exclusive attributes of Series and DataFrames
 """
-
 import numpy as np
 import pandas as pd
 

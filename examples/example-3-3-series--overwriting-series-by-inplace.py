@@ -3,7 +3,6 @@
 ---- Series methods
 ------ Overwriting a Series with the inplace parameter
 """
-
 import pandas as pd
 
 battles = pd.read_csv("../datasets/revolutionary_war.csv",

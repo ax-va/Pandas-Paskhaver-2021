@@ -3,7 +3,6 @@
 ---- The DataFrame object
 ------ Optimizing a data set for memory use
 """
-
 import pandas as pd
 
 employees1 = pd.read_csv("../datasets/employees.csv")
@@ -32,7 +31,7 @@ print(employees2.head())
 # 3      Jerry     NaN 2005-03-04  138705.0   True    Finance
 # 4      Larry    Male 1998-01-24  101004.0   True         IT
 
-print(employees2.info())
+employees2.info()
 # <class 'pandas.core.frame.DataFrame'>
 # RangeIndex: 1001 entries, 0 to 1000
 # Data columns (total 6 columns):
@@ -46,6 +45,6 @@ print(employees2.info())
 #  5   Team        957 non-null    object
 # dtypes: datetime64[ns](1), float64(1), object(4)
 # memory usage: 47.0+ KB
-# None
+
 
 

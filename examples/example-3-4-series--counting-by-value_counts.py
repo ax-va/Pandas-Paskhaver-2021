@@ -3,7 +3,6 @@
 ---- Series methods
 ------ Count values with the value_counts method
 """
-
 import pandas as pd
 
 pokemon = pd.read_csv("../datasets/pokemon.csv", index_col="Pokemon").squeeze("columns")
