@@ -9,7 +9,6 @@ employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])
 employees["Mgmt"] = employees["Mgmt"].astype(bool)
 employees["Gender"] = employees["Gender"].astype("category")
 employees["Team"] = employees["Team"].astype("category")
-employees.info()
 
 is_female = employees["Gender"] == "Female"
 in_biz_dev = employees["Team"] == "Business Dev"
