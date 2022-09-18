@@ -2,6 +2,8 @@
 
 Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver publiched by Manning in 2021. 
 
+Useful links:
+
 Original github by Boris Paskhaver:
 https://github.com/paskhaver/pandas-in-action
 
