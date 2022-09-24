@@ -75,3 +75,39 @@ print(pd.DataFrame(data=data, index=row_multiindex, columns=column_multiindex))
 # 8809 Flair Square  Toddside IL    37206          C-      B+       B-       A
 # 9901 Austin Street Toddside IL    37206          D+       C        A      C+
 # 905 Hogan Quarter  Franklin IL    37206          A-       A       D+       F
+
+# Demonstrate the hierarchy by MultiIndex in rows and columns
+new_addresses = [
+    ("IL", "Toddside", "37206", "Flair Square",  "8809"),
+    ("IL", "Toddside", "37206", "Flair Square", "8810"),
+    ("IL", "Toddside", "37206", "Austin Street", "9901 "),
+    ("IL", "Franklin", "37206", "Hogan Quarter", "905"),
+]
+
+new_row_multiindex = pd.MultiIndex.from_tuples(
+    tuples=new_addresses,
+    names=["State", "City", "Zip", "Street", "House"]
+)
+
+new_data = [
+    ["C-", "B+", "B-", "A"],
+    ["C-", "B+", "B-", "A"],
+    ["D+", "C", "A", "C+"],
+    ["A-", "A", "D+", "F"],
+]
+
+print(new_row_multiindex)
+# MultiIndex([('IL', 'Toddside', '37206',  'Flair Square',  '8809'),
+#             ('IL', 'Toddside', '37206',  'Flair Square',  '8810'),
+#             ('IL', 'Toddside', '37206', 'Austin Street', '9901 '),
+#             ('IL', 'Franklin', '37206', 'Hogan Quarter',   '905')],
+#            names=['State', 'City', 'Zip', 'Street', 'House'])
+
+print(pd.DataFrame(data=new_data, index=new_row_multiindex, columns=column_multiindex))
+#                                              Culture         Services
+#                                          Restaurants Museums   Police Schools
+# State City     Zip   Street        House
+# IL    Toddside 37206 Flair Square  8809           C-      B+       B-       A
+#                                    8810           C-      B+       B-       A
+#                      Austin Street 9901           D+       C        A      C+
+#       Franklin 37206 Hogan Quarter 905            A-       A       D+       F

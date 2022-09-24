@@ -5,8 +5,14 @@
 """
 import pandas as pd
 
+# Import the nfl.csv file
+# Convert the values in its Birthday column to datetimes
+# Set the DataFrame index to store the player names
 nfl = pd.read_csv("../datasets/nfl.csv", parse_dates=["Birthday"], index_col="Name")
+# nfl = pd.read_csv("../datasets/nfl.csv", parse_dates=["Birthday"])
+# nfl = nfl.set_index("Name")
 
+# Count the number of players per team
 # The two lines below are equivalent
 s1 = nfl.Team.value_counts().head()
 s2 = nfl["Team"].value_counts().head()
@@ -25,6 +31,7 @@ print(s2)
 # San Francisco 49Ers    55
 # Name: Team, dtype: int64
 
+# Get the five highest-paid players
 print(nfl.sort_values("Salary", ascending=False).head())
 #                                  Team Position   Birthday    Salary
 # Name
@@ -34,6 +41,7 @@ print(nfl.sort_values("Salary", ascending=False).head())
 # Derek Carr            Oakland Raiders       QB 1991-03-28  19900000
 # Jimmy Garoppolo   San Francisco 49Ers       QB 1991-11-02  17200000
 
+# Get the five highest-paid players
 print(nfl.nlargest(n=5, columns="Salary"))
 #                                  Team Position   Birthday    Salary
 # Name
@@ -43,6 +51,7 @@ print(nfl.nlargest(n=5, columns="Salary"))
 # Derek Carr            Oakland Raiders       QB 1991-03-28  19900000
 # Jimmy Garoppolo   San Francisco 49Ers       QB 1991-11-02  17200000
 
+# Sort the data set first by teams in alphabetical order and then by salary in descending order
 print(nfl.sort_values(by=["Team", "Salary"], ascending=[True, False]))
 #                                    Team Position   Birthday    Salary
 # Name
@@ -60,6 +69,7 @@ print(nfl.sort_values(by=["Team", "Salary"], ascending=[True, False]))
 #
 # [1655 rows x 4 columns]
 
+# Get the oldest player on the New York Jets roster and his birthday
 nfl = nfl.reset_index().set_index(keys="Team")
 print(nfl.head(3))
 #                                 Name Position   Birthday   Salary

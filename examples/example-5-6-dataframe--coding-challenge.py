@@ -21,6 +21,7 @@ print(netflix)
 #
 # [5837 rows x 4 columns]
 
+# Optimize the data set for limited memory use and maximum utility
 netflix = pd.read_csv("../datasets/netflix.csv", parse_dates=["date_added"])
 netflix.info()
 # <class 'pandas.core.frame.DataFrame'>
@@ -56,12 +57,14 @@ netflix.info()
 # dtypes: category(1), datetime64[ns](1), object(2)
 # memory usage: 142.8+ KB
 
+# Find all rows with a title of "Limitless"
 print(netflix[netflix["title"] == "Limitless"])
 #           title         director date_added     type
 # 1559  Limitless      Neil Burger 2019-05-16    Movie
 # 2564  Limitless              NaN 2016-07-01  TV Show
 # 4579  Limitless  Vrinda Samartha 2019-10-01    Movie
 
+# Find all rows with a director of "Robert Rodriguez" and a type of "Movie"
 directed_by_robert_rodriguez = netflix["director"] == "Robert Rodriguez"
 is_movie = netflix["type"] == "Movie"
 print(netflix[directed_by_robert_rodriguez & is_movie])
@@ -72,6 +75,7 @@ print(netflix[directed_by_robert_rodriguez & is_movie])
 # 3836                                 Shorts  Robert Rodriguez 2019-07-01  Movie
 # 3883                               Spy Kids  Robert Rodriguez 2019-04-01  Movie
 
+# Find all rows with either a date_added of "2019-07-31" or a director of "Robert Altman"
 added_on_july_31 = netflix["date_added"] == "2019-07-31"
 directed_by_altman = netflix["director"] == "Robert Altman"
 print(netflix[added_on_july_31 | directed_by_altman])
@@ -82,6 +86,7 @@ print(netflix[added_on_july_31 | directed_by_altman])
 # 3473  Bangkok Love Stories: Innocence            NaN 2019-07-31  TV Show
 # 5117                       Ramen Shop      Eric Khoo 2019-07-31    Movie
 
+# Find all rows with a director of "Orson Welles", "Aditya Kripalani", or "Sam Raimi"
 directors = ["Orson Welles", "Aditya Kripalani", "Sam Raimi"]
 target_directors = netflix["director"].isin(directors)
 print(netflix[target_directors])
@@ -93,6 +98,7 @@ print(netflix[target_directors])
 # 4475  The Other Side of the Wind      Orson Welles 2018-11-02  Movie
 # 5115    Tottaa Pataaka Item Maal  Aditya Kripalani 2019-06-25  Movie
 
+# Find all rows with a date_added value between May 1, 2019 and June 1, 2019
 may_movies = netflix["date_added"].between("2019-05-01", "2019-06-01")
 print(netflix[may_movies].head())
 #                    title      director date_added     type
@@ -102,6 +108,7 @@ print(netflix[may_movies].head())
 # 108            Jailbirds           NaN 2019-05-10  TV Show
 # 124              Pegasus       Han Han 2019-05-31    Movie
 
+# Drop all rows with a NaN value in the director column
 print(netflix.dropna(subset=["director"]))
 #                                    title        director date_added   type
 # 1                         A Patch of Fog  Michael Lennox 2017-04-15  Movie
@@ -134,6 +141,7 @@ print(netflix.dropna())
 #
 # [3901 rows x 4 columns]
 
+# Identify the days when Netflix added only one movie to its catalog
 # Keep nothing if duplicates occurred
 print(netflix.drop_duplicates(subset=["date_added"], keep=False))
 #                                         title  ...   type

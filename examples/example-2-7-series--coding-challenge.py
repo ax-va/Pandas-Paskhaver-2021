@@ -16,6 +16,7 @@ superheroes = [
 
 strength_levels = (100, 120, 90, 95, 110, 120)
 
+# Populate a new Series object by the superheroes list
 print(pd.Series(superheroes))
 # 0             Batman
 # 1           Superman
@@ -25,6 +26,7 @@ print(pd.Series(superheroes))
 # 5       Wonder Woman
 # dtype: object
 
+# Populate a new Series object by the strength_levels tuple
 print(pd.Series(data=strength_levels))
 # 0    100
 # 1    120
@@ -34,6 +36,7 @@ print(pd.Series(data=strength_levels))
 # 5    120
 # dtype: int64
 
+# Create a Series populating index nad values by superheroes and strength_levels, respectively
 heroes = pd.Series(data=strength_levels, index=superheroes)
 print(heroes)
 # Batman             100
@@ -44,11 +47,13 @@ print(heroes)
 # Wonder Woman       120
 # dtype: int64
 
+# Extract the first two rows
 print(heroes.head(2))
 # Batman      100
 # Superman    120
 # dtype: int64
 
+# Extract the last four rows
 print(heroes.tail(4))
 # Spider-Man          90
 # Iron Man            95
@@ -56,11 +61,15 @@ print(heroes.tail(4))
 # Wonder Woman       120
 # dtype: int64
 
+# Determine the number of unique values
 print(heroes.nunique())  # 5
+# Calculate the average strength
 print(heroes.mean())  # 105.83333333333333
+# Calculate the maximum and minimum strengths
 print(heroes.max())  # 120
 print(heroes.min())  # 90
 
+# Doubled the strength level
 print(heroes * 2)
 # Batman             200
 # Superman           240
@@ -70,6 +79,7 @@ print(heroes * 2)
 # Wonder Woman       240
 # dtype: int64
 
+# Convert to a dictionary
 print(dict(heroes))
 # {'Batman': 100, 'Superman': 120, 'Spider-Man': 90, 'Iron Man': 95, 'Captain America': 110, 'Wonder Woman': 120}
 
