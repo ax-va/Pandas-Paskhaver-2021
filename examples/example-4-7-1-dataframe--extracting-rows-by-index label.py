@@ -1,8 +1,8 @@
 """
 -- Core pandas
 ---- The DataFrame object
------- Selecting rows from a DataFrame
--------- Extracting rows by index label
+------ Selecting Rows from a DataFrame
+-------- Extracting Rows by Index Label
 """
 import pandas as pd
 

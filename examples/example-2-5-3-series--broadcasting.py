@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series object
------- Mathematical operations
+---- The Series Object
+------ Mathematical Operations
 -------- Broadcasting
 """
 import numpy as np

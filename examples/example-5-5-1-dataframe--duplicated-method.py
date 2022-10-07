@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Dealing with duplicates
--------- The duplicated method
+---- The DataFrame Object
+------ Dealing with Duplicates
+-------- The duplicated Method
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

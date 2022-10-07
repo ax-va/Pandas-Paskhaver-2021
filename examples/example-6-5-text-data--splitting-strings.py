@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with text data
------- Splitting strings
+---- Working with Text Data
+------ Splitting Strings
 """
 import pandas as pd
 customers = pd.read_csv("../datasets/customers.csv")

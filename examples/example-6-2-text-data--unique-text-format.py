@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with text data
------- Unique text format
+---- Working with Text Data
+------ Unique Text Format
 """
 import pandas as pd
 inspections = pd.read_csv("../datasets/chicago_food_inspections.csv")

@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series object
------- Coding challenge
+---- The Series Object
+------ Coding Challenge
 """
 import pandas as pd
 

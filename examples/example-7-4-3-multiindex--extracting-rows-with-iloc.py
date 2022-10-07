@@ -2,7 +2,7 @@
 -- Applied pandas
 ---- MultiIndex DataFrames
 ------ Selecting with a MultiIndex
--------- Extracting one or more rows with iloc
+-------- Extracting One or More Rows with iloc
 """
 import pandas as pd
 

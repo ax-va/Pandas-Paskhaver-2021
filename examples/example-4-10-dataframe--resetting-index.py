@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame object
------- Resetting an index
+---- The DataFrame Object
+------ Resetting an Index
 """
 import pandas as pd
 

@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Filtering by condition
--------- The isin method
+---- The DataFrame Object
+------ Filtering by Condition
+-------- The isin Method
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

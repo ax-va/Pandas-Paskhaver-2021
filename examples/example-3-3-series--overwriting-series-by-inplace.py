@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- Series methods
------- Overwriting a Series with the inplace parameter
+---- Series Methods
+------ Overwriting a Series with the Inplace Parameter
 """
 import pandas as pd
 

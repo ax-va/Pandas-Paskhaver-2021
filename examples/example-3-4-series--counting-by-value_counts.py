@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- Series methods
------- Count values with the value_counts method
+---- Series Methods
+------ Count Values with the value_counts Method
 """
 import pandas as pd
 

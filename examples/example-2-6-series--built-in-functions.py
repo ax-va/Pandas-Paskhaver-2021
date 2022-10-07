@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series object
------- Passing the Series to Python’s built-in functions
+---- The Series Object
+------ Passing the Series to Python’s Built-In Functions
 """
 import numpy as np
 import pandas as pd

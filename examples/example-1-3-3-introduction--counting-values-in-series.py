@@ -1,8 +1,8 @@
 """
 -- Core pandas
 ---- Introducing pandas
------- A tour of pandas
--------- Count values in a Series
+------ A Tour of pandas
+-------- Count Values in a Series
 """
 import pandas as pd
 

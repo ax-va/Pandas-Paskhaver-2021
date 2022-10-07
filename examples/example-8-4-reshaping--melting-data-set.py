@@ -1,7 +1,7 @@
 """
 -- Applied pandas
 ---- Reshaping and Pivoting
------- Melting a data set
+------ Melting a Data Set
 """
 # Melting is the process of converting a wide data set to a narrow one.
 # Narrow data is easier to aggregate and pivot than wide data.

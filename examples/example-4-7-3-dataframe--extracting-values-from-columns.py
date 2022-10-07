@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Selecting rows from a DataFrame
--------- Extracting values from specific columns
+---- The DataFrame Object
+------ Selecting Rows from a DataFrame
+-------- Extracting Values from Specific Columns
 """
 import pandas as pd
 

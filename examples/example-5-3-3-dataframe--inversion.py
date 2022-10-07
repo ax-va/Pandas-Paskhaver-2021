@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame object
------- Filtering by multiple conditions
+---- The DataFrame Object
+------ Filtering by Multiple Conditions
 -------- Inversion with ~
 """
 import numpy as np

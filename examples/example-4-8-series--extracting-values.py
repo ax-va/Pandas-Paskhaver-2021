@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series object
------- Extracting values from Series
+---- The Series Object
+------ Extracting Values from Series
 """
 import pandas as pd
 

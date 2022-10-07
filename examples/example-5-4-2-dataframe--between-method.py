@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Filtering by condition
--------- The between method
+---- The DataFrame Object
+------ Filtering by Condition
+-------- The between Method
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

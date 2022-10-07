@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The Series object
+---- The Series Object
 ------ Overview of a Series
--------- Customize the Series index
+-------- Customize the Series Index
 """
 import pandas as pd
 

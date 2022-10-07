@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series object
------- Retrieving the first and last rows
+---- The Series Object
+------ Retrieving the First and Last Rows
 """
 import pandas as pd
 

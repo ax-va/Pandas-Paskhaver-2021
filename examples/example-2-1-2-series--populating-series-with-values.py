@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The Series object
+---- The Series Object
 ------ Overview of a Series
--------- Populate Series with values
+-------- Populate Series with Values
 """
 import pandas as pd
 

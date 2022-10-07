@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame object
------- Filtering by a single condition
+---- The DataFrame Object
+------ Filtering by a Single Condition
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

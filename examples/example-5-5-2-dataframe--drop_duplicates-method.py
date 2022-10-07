@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Dealing with duplicates
--------- The drop_duplicates method
+---- The DataFrame Object
+------ Dealing with Duplicates
+-------- The drop_duplicates Method
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

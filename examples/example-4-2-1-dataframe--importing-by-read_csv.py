@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Similarities between Series and DataFrames
--------- Importing a DataFrame with the read_csv function
+---- The DataFrame Object
+------ Similarities Between Series and DataFrames
+-------- Importing a DataFrame with the read_csv Function
 """
 import pandas as pd
 

@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame object
------- Optimizing a data set for memory use
+---- The DataFrame Object
+------ Optimizing a Data Set for Memory Use
 """
 import pandas as pd
 

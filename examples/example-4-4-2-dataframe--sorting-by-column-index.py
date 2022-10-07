@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame object
------- Sorting by index
--------- Sorting by column index
+---- The DataFrame Object
+------ Sorting by Index
+-------- Sorting by Column Index
 """
 import pandas as pd
 

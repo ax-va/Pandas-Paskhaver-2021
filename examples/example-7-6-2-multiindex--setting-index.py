@@ -2,7 +2,7 @@
 -- Applied pandas
 ---- MultiIndex DataFrames
 ------ Manipulating the Index
--------- Setting the index
+-------- Setting the Index
 """
 import pandas as pd
 

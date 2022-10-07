@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame object
------- Setting a new index
+---- The DataFrame Object
+------ Setting a New Index
 """
 import pandas as pd
 
