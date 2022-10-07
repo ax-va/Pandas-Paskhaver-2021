@@ -1,6 +1,6 @@
 """
 -- Applied pandas
----- The GroupBy object
+---- The GroupBy Object
 ------ Coding Challenge
 """
 

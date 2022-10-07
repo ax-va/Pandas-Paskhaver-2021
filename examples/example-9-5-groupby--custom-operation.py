@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy object
------- Applying a custom operation to all groups
+---- The GroupBy Object
+------ Applying a Custom Operation to All Groups
 """
 
 import pandas as pd

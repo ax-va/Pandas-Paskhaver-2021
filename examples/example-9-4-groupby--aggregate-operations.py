@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy object
------- Aggregate operations
+---- The GroupBy Object
+------ Aggregate Operations
 """
 
 import pandas as pd

@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy object
------- Creating a GroupBy object from a data set
+---- The GroupBy Object
+------ Creating a GroupBy Object from a Data Set
 """
 
 import pandas as pd
