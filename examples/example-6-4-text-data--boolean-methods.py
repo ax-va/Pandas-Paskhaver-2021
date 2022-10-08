@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with Text Data
------- Boolean Methods
+---- Working with text data
+------ Boolean methods
 """
 import pandas as pd
 inspections = pd.read_csv("../datasets/chicago_food_inspections.csv")

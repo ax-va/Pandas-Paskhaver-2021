@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Filtering by Multiple Conditions
--------- The OR Condition
+---- Filtering a DataFrame
+------ Filtering by multiple conditions
+-------- The OR condition
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

@@ -2,7 +2,7 @@
 -- Applied pandas
 ---- MultiIndex DataFrames
 ------ Selecting with a MultiIndex
--------- Extracting One or More Rows with loc
+-------- Extracting one or more rows with loc
 """
 import pandas as pd
 

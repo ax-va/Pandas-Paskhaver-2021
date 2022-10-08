@@ -1,7 +1,7 @@
 """
 -- Core pandas
 ---- Introducing pandas
------- A Tour of pandas
+------ A tour of pandas
 -------- Manipulate a DataFrame
 """
 import pandas as pd

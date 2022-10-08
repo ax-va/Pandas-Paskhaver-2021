@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Renaming Columns or Rows
+---- The DataFrame object
+------ Renaming columns or rows
 """
 import pandas as pd
 

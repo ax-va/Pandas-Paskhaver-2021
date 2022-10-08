@@ -1,8 +1,8 @@
 """
 -- Core pandas
 ---- Introducing pandas
------- A Tour of pandas
--------- Group Data
+------ A tour of pandas
+-------- Group data
 """
 import pandas as pd
 

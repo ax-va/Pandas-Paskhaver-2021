@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with Text Data
------- String Slicing and Character Replacement
+---- Working with text data
+------ String slicing and character replacement
 """
 import pandas as pd
 inspections = pd.read_csv("../datasets/chicago_food_inspections.csv")

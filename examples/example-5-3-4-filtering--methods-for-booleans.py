@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Filtering by Multiple Conditions
+---- Filtering a DataFrame
+------ Filtering by multiple conditions
 -------- Methods for Booleans
 """
 # Equality                  employees["Team"] == "Marketing"        employees["Team"].eq("Marketing")

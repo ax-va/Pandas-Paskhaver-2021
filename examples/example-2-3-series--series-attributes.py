@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The Series Object
------- Series Attributes
+---- The Series object
+------ Series attributes
 """
 import pandas as pd
 

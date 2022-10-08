@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The Series Object
+---- The Series object
 ------ Overview of a Series
--------- Create Series with Missing Values
+-------- Create Series with missing values
 """
 import numpy as np
 import pandas as pd

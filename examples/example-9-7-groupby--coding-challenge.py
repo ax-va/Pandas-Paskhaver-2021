@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy Object
------- Coding Challenge
+---- The GroupBy object
+------ Coding challenge
 """
 
 import pandas as pd

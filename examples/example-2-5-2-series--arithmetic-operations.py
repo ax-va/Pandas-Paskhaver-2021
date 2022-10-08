@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The Series Object
------- Mathematical Operations
--------- Arithmetic Operations
+---- The Series object
+------ Mathematical operations
+-------- Arithmetic operations
 """
 import numpy as np
 import pandas as pd

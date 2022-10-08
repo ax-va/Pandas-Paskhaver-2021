@@ -2,7 +2,7 @@
 -- Applied pandas
 ---- MultiIndex DataFrames
 ------ Selecting with a MultiIndex
--------- Extracting One or More Columns
+-------- Extracting one or more columns
 """
 import pandas as pd
 

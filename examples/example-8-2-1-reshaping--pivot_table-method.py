@@ -1,8 +1,8 @@
 """
 -- Applied pandas
----- Reshaping and Pivoting
------- Creating a Pivot Table from a DataFrame
--------- The pivot_table Method
+---- Reshaping and pivoting
+------ Creating a pivot table from a DataFrame
+-------- The pivot_table method
 """
 import pandas as pd
 

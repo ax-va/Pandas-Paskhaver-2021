@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Merging, Joining, and Concatenating
------- Concatenating Data Sets
+---- Merging, joining, and concatenating
+------ Concatenating data sets
 """
 
 import pandas as pd

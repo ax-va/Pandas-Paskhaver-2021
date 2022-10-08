@@ -1,7 +1,7 @@
 """
 -- Applied pandas
 ---- MultiIndex DataFrames
------- Cross-Sections
+------ Cross-sections
 """
 import pandas as pd
 

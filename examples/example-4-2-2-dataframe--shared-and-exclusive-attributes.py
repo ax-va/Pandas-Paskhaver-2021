@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Similarities Between Series and DataFrames
--------- Shared and Exclusive Attributes of Series and DataFrames
+---- The DataFrame object
+------ Similarities between Series and DataFrames
+-------- Shared and exclusive attributes of Series and DataFrames
 """
 import numpy as np
 import pandas as pd

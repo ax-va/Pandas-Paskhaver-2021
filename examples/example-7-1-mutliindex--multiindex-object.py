@@ -1,7 +1,7 @@
 """
 -- Applied pandas
 ---- MultiIndex DataFrames
------- The MultiIndex Object
+------ The MultiIndex object
 """
 import pandas as pd
 

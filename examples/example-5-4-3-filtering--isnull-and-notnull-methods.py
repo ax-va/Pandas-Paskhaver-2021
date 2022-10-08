@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Filtering by Condition
--------- The isnull and notnull Methods
+---- Filtering a DataFrame
+------ Filtering by condition
+-------- The isnull and notnull methods
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

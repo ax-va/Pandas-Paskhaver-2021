@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with Text Data
------- Whitespace and Letter Casing
+---- Working with text data
+------ Whitespace and letter casing
 """
 import pandas as pd
 inspections = pd.read_csv("../datasets/chicago_food_inspections.csv")

@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with Text Data
------- A Note on Regular Expressions
+---- Working with text data
+------ A note on regular expressions
 """
 import pandas as pd
 customers = pd.read_csv("../datasets/customers.csv")

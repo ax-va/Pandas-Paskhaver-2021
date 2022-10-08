@@ -1,8 +1,8 @@
 """
 -- Core pandas
 ---- Introducing pandas
------- A Tour of pandas
--------- Filter a Column by One or More Criteria
+------ A tour of pandas
+-------- Filter a column by one or more criteria
 """
 import pandas as pd
 

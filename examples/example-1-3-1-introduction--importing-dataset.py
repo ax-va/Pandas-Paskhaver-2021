@@ -1,8 +1,8 @@
 """
 -- Core pandas
 ---- Introducing pandas
------- A Tour of pandas
--------- Import a Data Set
+------ A tour of pandas
+-------- Import a data set
 """
 import pandas as pd
 

@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Coding Challenge
+---- Filtering a DataFrame
+------ Coding challenge
 """
 import pandas as pd
 netflix = pd.read_csv("../datasets/netflix.csv")

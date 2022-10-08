@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy Object
------- Attributes and Methods of a GroupBy Object
+---- The GroupBy object
+------ Attributes and methods of a GroupBy object
 """
 
 import pandas as pd

@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- Series Methods
+---- Series methods
 ------ Sorting a Series
--------- Sorting by Index with the sort_index Method
+-------- Sorting by index with the sort_index method
 """
 import pandas as pd
 

@@ -1,7 +1,7 @@
 """
 -- Core pandas
----- Series Methods
------- Importing a Data Set with the read_csv Function
+---- Series methods
+------ Importing a data set with the read_csv function
 """
 import pandas as pd
 

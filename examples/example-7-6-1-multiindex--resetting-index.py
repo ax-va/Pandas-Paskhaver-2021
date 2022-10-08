@@ -1,8 +1,8 @@
 """
 -- Applied pandas
 ---- MultiIndex DataFrames
------- Manipulating the Index
--------- Resetting the Index
+------ Manipulating the index
+-------- Resetting the index
 """
 import pandas as pd
 

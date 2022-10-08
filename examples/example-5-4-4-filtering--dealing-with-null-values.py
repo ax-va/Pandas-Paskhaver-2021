@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Filtering by Condition
--------- Dealing with Null Values
+---- Filtering a DataFrame
+------ Filtering by condition
+-------- Dealing with null values
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

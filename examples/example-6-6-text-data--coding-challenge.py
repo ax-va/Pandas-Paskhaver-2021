@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Working with Text Data
------- Coding Challenge
+---- Working with text data
+------ Coding challenge
 """
 import pandas as pd
 customers = pd.read_csv("../datasets/customers.csv")

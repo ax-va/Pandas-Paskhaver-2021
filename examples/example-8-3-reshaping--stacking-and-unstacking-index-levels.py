@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Reshaping and Pivoting
------- Stacking and Unstacking Index Levels
+---- Reshaping and pivoting
+------ Stacking and unstacking index levels
 """
 import pandas as pd
 

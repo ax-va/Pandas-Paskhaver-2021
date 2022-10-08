@@ -1,7 +1,7 @@
 """
 -- Core pandas
 ---- Series methods
------- Coding Challenge
+------ Coding challenge
 """
 import datetime as dt
 import pandas as pd

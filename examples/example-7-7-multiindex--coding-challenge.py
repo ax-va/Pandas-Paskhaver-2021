@@ -1,7 +1,7 @@
 """
 -- Applied pandas
 ---- MultiIndex DataFrames
------- Coding Challenge
+------ Coding challenge
 """
 import pandas as pd
 

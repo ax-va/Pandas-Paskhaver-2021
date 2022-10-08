@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- The GroupBy Object
------- Grouping by Multiple Columns
+---- The GroupBy object
+------ Grouping by multiple columns
 """
 
 import pandas as pd

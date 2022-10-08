@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Reshaping and Pivoting
------- Exploding a List of Values
+---- Reshaping and pivoting
+------ Exploding a list of values
 """
 
 import pandas as pd

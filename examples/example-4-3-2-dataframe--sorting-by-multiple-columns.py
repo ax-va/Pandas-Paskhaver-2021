@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
+---- The DataFrame object
 ------ Sorting a DataFrame
--------- Sorting by Multiple Columns
+-------- Sorting by multiple columns
 """
 import pandas as pd
 

@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Optimizing a Data Set for Memory Use
--------- Converting Data Types with the astype Method
+---- Filtering a DataFrame
+------ Optimizing a data set for memory use
+-------- Converting data types with the astype method
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])

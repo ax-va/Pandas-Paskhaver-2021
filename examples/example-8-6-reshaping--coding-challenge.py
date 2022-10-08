@@ -1,7 +1,7 @@
 """
 -- Applied pandas
----- Reshaping and Pivoting
------- Coding Challenge
+---- Reshaping and pivoting
+------ Coding challenge
 """
 
 import pandas as pd

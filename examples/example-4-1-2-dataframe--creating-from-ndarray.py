@@ -1,6 +1,6 @@
 """
 -- Core pandas
----- The DataFrame Object
+---- The DataFrame object
 ------ Overview of a DataFrame
 -------- Creating a DataFrame from a NumPy ndarray
 """

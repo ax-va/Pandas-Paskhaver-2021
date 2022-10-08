@@ -1,8 +1,8 @@
 """
 -- Core pandas
----- The DataFrame Object
------- Filtering by Multiple Conditions
--------- The AND Condition
+---- Filtering a DataFrame
+------ Filtering by multiple conditions
+-------- The AND condition
 """
 import pandas as pd
 employees = pd.read_csv("../datasets/employees.csv", parse_dates=["Start Date"])
