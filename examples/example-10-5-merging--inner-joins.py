@@ -54,6 +54,8 @@ groups.merge(categories, how="inner", on="category_id").info()
 # dtypes: int64(3), object(2)
 # memory usage: 376.7+ KB
 
+# You can also use a list of columns in the on argument for joins
+
 categories.merge(groups, how="inner", on="category_id").info()
 # <class 'pandas.core.frame.DataFrame'>
 # Int64Index: 8037 entries, 0 to 8036
@@ -90,3 +92,5 @@ print(categories[categories["category_id"] == 14])
 
 # If in categories, there were three category_id of 14,
 # for example, pandas would create 2610 rows (870 x 3)
+
+# You can also use a list of columns in the on argument for joins
