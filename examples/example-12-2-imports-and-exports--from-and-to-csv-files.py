@@ -49,5 +49,3 @@ baby_names.to_csv(
     index=False,
     columns=["Gender", "Child's First Name", "Count"]
 )
-
-
