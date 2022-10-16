@@ -1,7 +1,7 @@
 """
 -- Applied pandas
 ---- Imports and exports
------- Reading from and writing to CSV files
+------ Reading from and writing to Excel workbooks
 -------- Exporting Excel workbooks
 """
 
