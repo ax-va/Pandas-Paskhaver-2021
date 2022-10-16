@@ -2,7 +2,7 @@
 
 Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver publiched by Manning in 2021. 
 
-With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are also needed to work with Excel workbooks. 
+With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are also used to work with Excel workbooks. 
 
 Useful links:
 
