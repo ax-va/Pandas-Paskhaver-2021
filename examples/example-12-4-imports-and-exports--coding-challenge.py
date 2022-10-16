@@ -41,7 +41,6 @@ print(tv_shows.head())
 #
 # [5 rows x 7 columns]
 
-
 # Filter the normalized data set into three separate DataFrames
 x_files = tv_shows[tv_shows["show"] == "The X-Files"]
 lost = tv_shows[tv_shows["show"] == "Lost"]
