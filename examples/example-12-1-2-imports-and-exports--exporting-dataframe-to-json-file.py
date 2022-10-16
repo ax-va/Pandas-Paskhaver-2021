@@ -197,3 +197,5 @@ print(winners.head(3).to_json(orient="table"))
 # 		"category": "chemistry"
 # 	}]
 # }
+
+winners.to_json("../datasets/winners.json", orient="records")
