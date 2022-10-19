@@ -30,8 +30,7 @@ print(
 # San Francisco     Ashley      Ruiz
 # Portland       Stephanie     Gomez
 
-# The there lines below are equivalent
-pd.read_excel("../datasets/Multiple Worksheets.xlsx")
+# The two lines below are equivalent
 pd.read_excel("../datasets/Multiple Worksheets.xlsx", sheet_name=0)
 pd.read_excel("../datasets/Multiple Worksheets.xlsx", sheet_name="Data 1")
 
