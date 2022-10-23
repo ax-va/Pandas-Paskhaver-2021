@@ -31,8 +31,9 @@ print(space["Cost"].head())
 print(repr(space["Cost"].plot()))
 # <AxesSubplot: xlabel='Date'>
 
-# Plot in a popup window taking the picture object from a buffer memory
+# Plot in a popup window taking the figure object from the memory
 # plt.show()
+
 plt.savefig('../visualization/figure-14-2-1.png')
 
 data = [
