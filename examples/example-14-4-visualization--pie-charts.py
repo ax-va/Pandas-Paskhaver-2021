@@ -13,7 +13,7 @@ print(space["Status"].value_counts())
 # Failure      6
 # Name: Status, dtype: int64
 
-space["Status"].value_counts().plot(kind="pie", y=None)
+space["Status"].value_counts().plot(kind="pie")
 plt.savefig('../visualization/figure-14-4-1.png')
 
 plt.clf()
