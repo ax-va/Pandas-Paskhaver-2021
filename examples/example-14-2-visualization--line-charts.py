@@ -34,7 +34,7 @@ print(repr(space["Cost"].plot()))
 # Plot in a popup window taking the figure object from the memory
 # plt.show()
 
-plt.savefig('../visualization/figure-14-2-1.png')
+plt.savefig('../figures/figure-14-2-1.png')
 
 data = [
     [2000, 3000000],
@@ -46,13 +46,13 @@ print(df)
 # 0   2000  3000000
 # 1   5000  5000000
 df.plot()
-plt.savefig('../visualization/figure-14-2-2.png')
+plt.savefig('../figures/figure-14-2-2.png')
 
 space.plot(y="Cost")
-plt.savefig('../visualization/figure-14-2-3.png')
+plt.savefig('../figures/figure-14-2-3.png')
 
 space.plot(y="Cost", colormap="gray")
-plt.savefig('../visualization/figure-14-2-4.png')
+plt.savefig('../figures/figure-14-2-4.png')
 
 print(plt.colormaps())
 # ['magma', 'inferno', 'plasma', 'viridis', 'cividis', 'twilight', 'twilight_shifted',

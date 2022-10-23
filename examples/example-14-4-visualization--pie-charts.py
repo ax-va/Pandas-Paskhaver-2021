@@ -14,9 +14,9 @@ print(space["Status"].value_counts())
 # Name: Status, dtype: int64
 
 space["Status"].value_counts().plot(kind="pie")
-plt.savefig('../visualization/figure-14-4-1.png')
+plt.savefig('../figures/figure-14-4-1.png')
 
 plt.clf()
 
 space["Status"].value_counts().plot(kind="pie", legend=True)
-plt.savefig('../visualization/figure-14-4-2.png')
+plt.savefig('../figures/figure-14-4-2.png')
