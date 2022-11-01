@@ -4,12 +4,15 @@ Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver publ
 
 The examples cover the following topics: filtering, working with text data, multiindexing, reshaping, grouping, merging, working with dates and times, importing and exporting data from CSV, JSON, and Excel files, configuring, and visualization by Matplotlib.
 
-With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are used to work with Excel workbooks, and Matplotlib 3.6.1 for visualization. 
+With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are used to work with Excel workbooks, Matplotlib 3.6.1 for visualization, and Faker 15.1.1 for generating data. 
 
 Useful links:
 
 Original GitHub by Boris Paskhaver:
 https://github.com/paskhaver/pandas-in-action
+
+10 minutes to pandas:
+https://pandas.pydata.org/docs/user_guide/10min.html
 
 Pandas' Series: 
 https://pandas.pydata.org/docs/reference/series.html
@@ -19,3 +22,6 @@ https://pandas.pydata.org/docs/reference/frame.html
 
 JSON validator:
 https://jsonlint.com/
+
+Faker's documentation:
+https://faker.readthedocs.io/en/master/
