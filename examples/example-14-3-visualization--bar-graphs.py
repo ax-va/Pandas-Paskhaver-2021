@@ -26,9 +26,9 @@ print(space["Company Name"].value_counts())
 # Name: Company Name, dtype: int64
 
 space["Company Name"].value_counts().plot(kind="bar")
-plt.savefig('../figures/figure-14-3-1.png', bbox_inches='tight')
+plt.savefig('../figures/figure-14-3-1.svg', bbox_inches='tight')
 
 plt.clf()
 
 space["Company Name"].value_counts().plot(kind="barh")
-plt.savefig('../figures/figure-14-3-2.png', bbox_inches='tight')
+plt.savefig('../figures/figure-14-3-2.svg', bbox_inches='tight')
