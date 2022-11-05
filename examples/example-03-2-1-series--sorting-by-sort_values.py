@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 -- Core pandas
 ---- Series methods

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 -- Appendix D
 ---- Generating fake data with Faker
