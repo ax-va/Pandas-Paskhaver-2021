@@ -9,11 +9,16 @@ import pandas as pd
 
 # url = "https://data.cityofnewyork.us/api/views/25th-nujf/rows.csv"
 # baby_names = pd.read_csv(url)
-
 # Pandas raises an HTTPError exception if the link is invalid
 
 baby_names = pd.read_csv("../datasets/new_york_city_baby_names.csv")
 print(baby_names.head())
+#    Year of Birth  Gender Ethnicity Child's First Name  Count  Rank
+# 0           2011  FEMALE  HISPANIC          GERALDINE     13    75
+# 1           2011  FEMALE  HISPANIC                GIA     21    67
+# 2           2011  FEMALE  HISPANIC             GIANNA     49    42
+# 3           2011  FEMALE  HISPANIC            GISELLE     38    51
+# 4           2011  FEMALE  HISPANIC              GRACE     36    53
 
 # Convert to a string including index
 print(baby_names.head(10).to_csv())
