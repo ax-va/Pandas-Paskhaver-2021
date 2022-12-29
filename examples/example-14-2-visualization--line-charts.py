@@ -36,6 +36,7 @@ print(repr(space["Cost"].plot()))
 # plt.show()
 
 plt.savefig('../figures/figure-14-2-1.svg')
+plt.close()
 
 data = [
     [2000, 3000000],
@@ -48,12 +49,15 @@ print(df)
 # 1   5000  5000000
 df.plot()
 plt.savefig('../figures/figure-14-2-2.svg')
+plt.close()
 
 space.plot(y="Cost")
 plt.savefig('../figures/figure-14-2-3.svg')
+plt.close()
 
 space.plot(y="Cost", colormap="gray")
 plt.savefig('../figures/figure-14-2-4.svg')
+plt.close()
 
 print(plt.colormaps())
 # ['magma', 'inferno', 'plasma', 'viridis', 'cividis', 'twilight', 'twilight_shifted',

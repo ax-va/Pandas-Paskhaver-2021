@@ -28,8 +28,8 @@ print(space["Company Name"].value_counts())
 
 space["Company Name"].value_counts().plot(kind="bar")
 plt.savefig('../figures/figure-14-3-1.svg', bbox_inches='tight')
-
-plt.clf()
+plt.close()
 
 space["Company Name"].value_counts().plot(kind="barh")
 plt.savefig('../figures/figure-14-3-2.svg', bbox_inches='tight')
+plt.close()

@@ -16,8 +16,8 @@ print(space["Status"].value_counts())
 
 space["Status"].value_counts().plot(kind="pie")
 plt.savefig('../figures/figure-14-4-1.svg')
-
-plt.clf()
+plt.close()
 
 space["Status"].value_counts().plot(kind="pie", legend=True)
 plt.savefig('../figures/figure-14-4-2.svg')
+plt.close()
