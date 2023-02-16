@@ -12,7 +12,7 @@ With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0
 Original GitHub by Boris Paskhaver:
 https://github.com/paskhaver/pandas-in-action
 
-10 minutes to pandas:
+10 minutes to Pandas:
 https://pandas.pydata.org/docs/user_guide/10min.html
 
 Pandas' Series: 
