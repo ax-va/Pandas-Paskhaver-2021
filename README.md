@@ -7,7 +7,7 @@ filtering, working with text data, multiindexing, reshaping, grouping, merging, 
 
 With Python 3.8+, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are used for working with Excel workbooks, Matplotlib 3.6.1 for visualization, and Faker 15.1.1 for generating data. 
 
-## Links
+## Additional
 
 Original GitHub by Boris Paskhaver:
 https://github.com/paskhaver/pandas-in-action
@@ -15,14 +15,14 @@ https://github.com/paskhaver/pandas-in-action
 10 minutes to Pandas:
 https://pandas.pydata.org/docs/user_guide/10min.html
 
-Pandas' Series: 
+Pandas Series: 
 https://pandas.pydata.org/docs/reference/series.html
 
-Pandas' DataFrame:
+Pandas DataFrame:
 https://pandas.pydata.org/docs/reference/frame.html
 
 JSON validator:
 https://jsonlint.com/
 
-Faker's documentation:
+Faker documentation:
 https://faker.readthedocs.io/en/master/
