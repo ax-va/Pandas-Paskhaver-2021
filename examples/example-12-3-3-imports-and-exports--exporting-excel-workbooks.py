@@ -14,14 +14,14 @@ girls = baby_names[baby_names["Gender"] == "FEMALE"]
 boys = baby_names[baby_names["Gender"] == "MALE"]
 
 # Creating an ExcelWriter object also creates a file
-excel_file = pd.ExcelWriter("../datasets/Baby_Names.xlsx")
-print(excel_file)  #<pandas.io.excel._openpyxl.OpenpyxlWriter object at 0x000001A333EC09A0>
+writer = pd.ExcelWriter("../datasets/Baby_Names.xlsx")
+print(writer)  #<pandas.io.excel._openpyxl.OpenpyxlWriter object at 0x000001A333EC09A0>
 
-girls.to_excel(excel_writer=excel_file, sheet_name="Girls", index=False)
+girls.to_excel(excel_writer=writer, sheet_name="Girls", index=False)
 # The worksheet is not added yet to the file
 
 boys.to_excel(
-    excel_file,
+    writer,
     sheet_name="Boys",
     index=False,
     columns=["Child's First Name", "Count", "Rank"]
@@ -29,4 +29,4 @@ boys.to_excel(
 # The worksheet is not added yet to the file
 
 # Now save to the file
-excel_file.save()
+writer.close()
