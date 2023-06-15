@@ -29,4 +29,6 @@ boys.to_excel(
 # The worksheet is not added yet to the file
 
 # Now save to the file
-writer.close()
+writer.save()
+# Use close() in newer versions of Pandas instead of save()
+# writer.close()
