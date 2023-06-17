@@ -30,5 +30,5 @@ boys.to_excel(
 
 # Now save to the file
 writer.save()
-# Use close() in newer versions of Pandas instead of save()
+# Use close() instead of save() in newer Pandas versions:
 # writer.close()
