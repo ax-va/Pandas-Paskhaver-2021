@@ -30,5 +30,23 @@ boys.to_excel(
 
 # Now save in the file
 writer.save()
+
 # Use close() instead of save() in newer Pandas versions:
 # writer.close()
+
+# You can also use the 'with' context manager:
+"""
+from openpyxl.styles import Alignment
+from openpyxl.utils import get_column_letter
+
+with pd.ExcelWriter(to_file) as writer:
+    df.to_excel(excel_writer=writer)
+    workbook = writer.book
+    worksheet = workbook.active
+    first_column_letter = get_column_letter(1)
+    worksheet.column_dimensions[first_column_letter].auto_size = True
+    for row_num in range(2, worksheet.max_row + 1):
+        worksheet[first_column_letter + str(row_num)].alignment = Alignment(horizontal="left")
+    for col_num in range(2, worksheet.max_column + 1):
+        worksheet.column_dimensions[get_column_letter(col_num)].width = 20
+"""
