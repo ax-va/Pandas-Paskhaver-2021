@@ -117,3 +117,25 @@ print(battles.dropna().sort_values())  # drop values with NaN
 # 1783-01-22       Virginia
 # Name: State, Length: 162, dtype: object
 
+df_scored_names = pd.DataFrame(
+    {
+        'name': ['zak', 'alice', 'bob', 'mike', 'bob', 'bob'],
+        'score': [4, 3, 5, 2, 3, 7]
+    }
+)
+#     name  score
+# 0    zak      4
+# 1  alice      3
+# 2    bob      5
+# 3   mike      2
+# 4    bob      3
+# 5    bob      7
+
+df_scored_names.sort_values(['name', 'score'], ascending=[True, False])
+#     name  score
+# 1  alice      3
+# 5    bob      7
+# 2    bob      5
+# 4    bob      3
+# 3   mike      2
+# 0    zak      4
