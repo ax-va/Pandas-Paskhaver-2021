@@ -1,6 +1,6 @@
 # Pandas-Paskhaver-2021
 
-Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver published by Manning in 2021.
+Learning Pandas by examples from book "Pandas in Action" by Boris Paskhaver published by Manning Publications in 2021.
 
 The examples cover the following topics:
 filtering, working with text data, multiindexing, reshaping, grouping, merging, working with dates and times, importing data from and exporting data in CSV, JSON, and Excel files, configuring, and visualization by Matplotlib.
