@@ -14,7 +14,7 @@ The examples cover the following topics:
 - configuring Pandas
 - visualization by Matplotlib
 
-With Python 3.8, NumPy 1.22.4 and Pandas 1.4.2 are used. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 are used for working with Excel workbooks, Matplotlib 3.6.1 for visualization, and Faker 15.1.1 for generating data. 
+My environment was Python 3.8 with NumPy 1.22.4 and Pandas 1.4.2. Additionally, xlrd 2.0.1 and openpyxl 3.0.10 were used for working with Excel workbooks, Matplotlib 3.6.1 for visualization, and Faker 15.1.1 for generating data. 
 
 ## Original GitHub by Boris Paskhaver:
 https://github.com/paskhaver/pandas-in-action
